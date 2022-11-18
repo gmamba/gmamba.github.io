@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Pet Healer</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #262626"></canvas>
+    <script src="Build/752cd6f0cfbb22a5fec46ed87ac73156.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/e91c2cdf2e9136576361383f7232ab3f.data",
+        frameworkUrl: "Build/8d38adb422b23d676da71e270a3e2e62.js",
+        codeUrl: "Build/45e666c1bfdaaa50030f582bb7fc8bd8.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Gmamba Studi",
+        productName: "Pet Healer",
+        productVersion: "0.3",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+  </body>
+</html>
