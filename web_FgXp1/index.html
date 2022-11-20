@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/web_FgXp1.loader.js";
+      var loaderUrl = buildUrl + "/752cd6f0cfbb22a5fec46ed87ac73156.js";
       var config = {
-        dataUrl: buildUrl + "/624c2541fa87d5874bb61bc82583181c.data",
-        frameworkUrl: buildUrl + "/0c2aa94c514e9e362ef2936cc7dbf4ad.js",
-        codeUrl: buildUrl + "/b881e847cf2316058881774b219db984.wasm",
+        dataUrl: buildUrl + "/2b9620a024d8b588b1827ef4bd0a4e42.data.br",
+        frameworkUrl: buildUrl + "/8d38adb422b23d676da71e270a3e2e62.js.br",
+        codeUrl: buildUrl + "/d8083edeb3d7b49744bfcbff80f53a94.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Gmamba Studi",
         productName: "Pet Healer",
@@ -76,25 +76,15 @@
       // config.matchWebGLToCanvasSize = false;
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        // Mobile device style: fill the whole browser client area with the game canvas:
-
-        var meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-        document.getElementsByTagName('head')[0].appendChild(meta);
         container.className = "unity-mobile";
-        canvas.className = "unity-mobile";
-
-        // To lower canvas resolution on mobile devices to gain some
-        // performance, uncomment the following line:
-        // config.devicePixelRatio = 1;
+        // Avoid draining fillrate performance on mobile devices,
+        // and default/override low DPI mode on mobile browsers.
+        config.devicePixelRatio = 1;
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
-        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
-
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
