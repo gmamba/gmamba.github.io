@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/be5c8a837410560f3ca8989808c21df4.js";
+      var loaderUrl = buildUrl + "/web_FgXp1.loader.js";
       var config = {
-        dataUrl: buildUrl + "/d670d8cad05d8f8147ad5ae8feda4098.data",
-        frameworkUrl: buildUrl + "/4f20b8621ef4d4b4f9c99482bd8dafda.js",
-        codeUrl: buildUrl + "/d6065bde40296d6d82ccec7cd4cb88b9.wasm",
+        dataUrl: buildUrl + "/624c2541fa87d5874bb61bc82583181c.data",
+        frameworkUrl: buildUrl + "/0c2aa94c514e9e362ef2936cc7dbf4ad.js",
+        codeUrl: buildUrl + "/b881e847cf2316058881774b219db984.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Gmamba Studi",
         productName: "Pet Healer",
@@ -76,15 +76,25 @@
       // config.matchWebGLToCanvasSize = false;
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
         container.className = "unity-mobile";
-        // Avoid draining fillrate performance on mobile devices,
-        // and default/override low DPI mode on mobile browsers.
-        config.devicePixelRatio = 1;
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
       } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
+
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
