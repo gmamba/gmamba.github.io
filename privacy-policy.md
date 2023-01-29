@@ -1,65 +1,48 @@
-**Privacy Policy**
+# Privacy Policy for Gmamba Studio Games
 
-Gmamba Studio Games built the 1945 kamikaze: airplane force app as a Free app. This SERVICE is provided by Gmamba Studio Games at no cost and is intended for use as is.
+This privacy policy outlines the information we collect, how we use it, and how you can control it.
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+## Information Collected
+- Information you provide directly to us, such as email, name, or profile information
+- Information we collect automatically, such as device type, IP address, and in-app behavior.
+- Information collected by third-party service providers, such as Google Play Services, AdMob, Google Analytics for Firebase, Facebook, Unity, AppLovin, AdColony, and Adjust.
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+## Use of Information
+- Provide and improve our services
+- Send you promotional messages or updates
+- Respond to your requests or questions
+- Analyze and better understand the usage of our services
+- Detect, prevent and address technical issues
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at 1945 kamikaze: airplane force unless otherwise defined in this Privacy Policy.
+## Control of Information
+- You can control what information we collect by adjusting your device settings or opting out of certain services.
+- You can request access to or deletion of your information by contacting us at gmamba.studio.games@gmail.com
 
-**Information Collection and Use**
+## Security
+- We take reasonable measures to protect your information from unauthorized access, alteration, or destruction. However, no security measures are perfect or impenetrable.
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+## Links to Other Sites
+- Our services may contain links to other sites that are not operated by us. We are not responsible for the privacy practices of those sites, and encourage you to read their privacy policies.
 
-The app does use third party services that may collect information used to identify you.
+## Children's Privacy
+- Our services are not intended for children under the age of 13. We do not knowingly collect personal information from children under 13.
 
-Link to privacy policy of third party service providers used by the app
+## Cookies
+- Our services may use cookies to provide a better user experience and to analyze the usage of our services. You can control the use of cookies through your browser settings.
 
-*   [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
-*   [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
-*   [Facebook](https://www.facebook.com/about/privacy/update/printable)
-*   [Unity](https://unity3d.com/legal/privacy-policy)
+## Third-Party Services
+- We use third-party services to provide and improve our services. They may collect, use, and disclose your information as outlined in their respective privacy policies, which can be found here:
+  - Google Play Services: https://policies.google.com/privacy
+  - AdMob: https://policies.google.com/privacy
+  - Google Analytics for Firebase: https://firebase.google.com/policies/analytics
+  - Facebook: https://www.facebook.com/policy.php
+  - Unity: https://unity3d.com/legal/privacy-policy
+  - AppLovin: https://www.applovin.com/privacy/
+  - AdColony: https://www.adcolony.com/privacy-policy/
+  - Adjust: https://www.adjust.com/privacy-policy/
 
-**Log Data**
+## Updates to Policy
+- Our privacy policy may change from time to time. We will notify you of any changes by updating the policy on our website.
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
-
-**Cookies**
-
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
-
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
-
-**Service Providers**
-
-I may employ third-party companies and individuals due to the following reasons:
-
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
-
-I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
-
-**Security**
-
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
-
-**Links to Other Sites**
-
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
-
-**Children’s Privacy**
-
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
-
-**Changes to This Privacy Policy**
-
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
-
-This policy is effective as of 2021-06-17
-
-**Contact Us**
-
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at gmamba.studio.games@gmail.com.
+## Contact
+- If you have any questions or concerns about our privacy policy, please contact us at gmamba.studio.games@gmail.com
